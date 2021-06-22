@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo de Sorpresas</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bodyproveedor">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dancing+Script&display=swap');
+        </style>
+    <header class="header">
+        <img  class="logo1" src="../Resources/logo.jpeg">
+        <h1 class="titulo">MUNDO DE SORPRESAS </h1>
+        <img  class="logo" src="../Resources/logo.jpeg">
+    </header>
+    <div class="titlehtree">
+        <h2>Bienvenido, estamos felices de que trabajes con nosotros!</h2>
+    </div> 
+
+
+<form method="POST" class="form_proveedor" >
+        <table >
+            <tr><th colspan="2">
+                <label class="clienteslabel" >INFORMACION GENERAL DEL PROVEEDOR</label>
+            </th></tr>
+            <tr><td><label for="text">Razon social:</label></td> <td><input type="text" required class="ff" placeholder="Razon social"></td></tr>
+            <tr><td><label for="text">N.I.T:</label></td> <td><input type="text"required class="ff" placeholder="N.I.T"></td></tr>
+            <tr><td><label for="text">Actividad Economica:</label></td> <td><input type="text"required class="ff" placeholder="Actividad Economica"></td></tr>
+            <tr><td><label for="text">codigo CIIU:</label></td> <td><input type="text"required class="ff" placeholder="codigo CIIU"></td></tr>
+    
+            <tr><th colspan="2">
+                <label >INFORMACION GENERAL DEL PROVEEDOR</label>
+            </th></tr>
+            <tr>
+                <td><label class="color" for="text">TIPO DE PROVEEDOR:</label></td>
+                <tr>
+                    <td><input type="checkbox" name="Tipo" id="Tipo">Permanente</td>
+                    <td><input type="checkbox" name="Tipo" id="Tipo">Insumo</td>
+                </tr>
+                 <tr> <td><input type="checkbox" name="Tipo" id="Tipo">Ocasional</td>
+                    <td><input type="checkbox" name="Tipo" id="Tipo">Servicios</td>
+                </tr>
+            </tr>
+            <tr>
+                <td><label class="color" for="text">CONTACTO CLIENTE:</label></td>
+            <tr>
+                <td><input type="checkbox" name="Tipo" id="Tipo">Directo</td>
+                <td><input type="checkbox" name="Tipo" id="Tipo">Indirecto </td>
+            </tr>
+            </tr>
+            <tr>
+                <td><label class="color" for="text">Numero empleados: </label></td> <td><input type="text" placeholder="Numero de empleados"></td>
+            </tr>
+            <tr><th colspan="2">
+                <label >INFORMACION CONTACTO EMPRESA</label>
+            </th></tr>
+            <tr><td><label for="text">Nombre:</label></td> <td><input type="text" required class="ff" placeholder="Nombre"></td></tr>
+            <tr><td><label for="text">E-mail:</label></td> <td><input type="email" required class="ff" placeholder="E-mail"></td></tr>
+            <tr><td><label for="text">Cargo:</label></td> <td><input type="text" required class="ff" placeholder="Cargo"></td></tr>
+            <tr><td><label for="text">Telefono:</label></td> <td><input type="tel" required class="ff" placeholder="Telefono"></td></tr>
+            <tr><td colspan="2"><hr></td></tr>
+        
+                            <tr><th colspan="2">
+                                  <input type="reset">
+                                </th>
+                            </tr>
+                            <tfoot> 
+                                <th colspan="2">
+                                  <input type="submit">
+                                </th>
+                            </tfoot>
+        </table>
+        
+    </form>
+
+</body>
+</html>
